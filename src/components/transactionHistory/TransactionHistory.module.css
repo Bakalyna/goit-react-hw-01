@@ -1,0 +1,15 @@
+.table {
+  width: 500px;
+  border-collapse: collapse;
+}
+.table td,
+.table th {
+  border: 1px solid black;
+}
+.table-title {
+  background-color: rgb(39, 39, 39);
+  color: aliceblue;
+}
+.table-line:nth-child(even) {
+  background-color: rgb(179, 179, 179);
+}
